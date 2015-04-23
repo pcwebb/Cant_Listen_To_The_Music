@@ -52,33 +52,33 @@ increase my enjoyment of my hobby.
 Acceptance Story
 ================
 
-**Scenario 1:** Inputting the albums
-**Given** that I have an new album
-**And** I would like to catalog it into a program
-**When** I click the  *New* button
-**Then** I will be taken to a form screen to input my album information by
-filling in an *Album*, *Song*, *Artist*, *Location*, and *Genre*
-**And** the *Date Cataloged* will auto-fill.
+| **Scenario 1:** Inputting the albums
+| **Given** that I have an new album
+| **And** I would like to catalog it into a program
+| **When** I click the  *New* button
+| **Then** I will be taken to a form screen to input my album information by
+ filling in an *Album*, *Song*, *Artist*, *Location*, and *Genre*
+| **And** the *Date Cataloged* will auto-fill.
 
-Scenario 2: Selecting and deleting a song
-**Given that I would like to play a song from my collection
-**And I would like to use specific parameters
-**When I click the *Select* button
-**Then I will be taken to a form to input my parameters (*Album*, *Song*,
-*Artist*, *Location*, and/or *Genre*)
-**And a list with *Album*, *Song*, *Artist*, *Location*, and or *Genre*
-will generate based on those selected parameters
-**And a *Delete* button will appear beside each song which will delete entry
-when selected
-**And an *Accessed * button will appear beside each song which will auto-fill
-when selected
+| Scenario 2: Selecting and deleting a song
+| **Given that I would like to play a song from my collection
+| **And I would like to use specific parameters
+| **When I click the *Select* button
+| **Then I will be taken to a form to input my parameters (*Album*, *Song*,
+ *Artist*, *Location*, and/or *Genre*)
+| **And a list with *Album*, *Song*, *Artist*, *Location*, and or *Genre*
+ will generate based on those selected parameters
+| **And a *Delete* button will appear beside each song which will delete entry
+ when selected
+| **And an *Accessed * button will appear beside each song which will auto-fill
+ when selected
 
-**Scenario 3:** Songs recently accessed
-**Given** that I have digitally accessed songs from my collection
-**When** I click the *Recently Accessed* button
-**Then** I will be taken to a list indicated my most recent selection for the
-past 3 months
-**And** this list will include *Album*, *Song*, *Artist*, *Location*, *Genre* 
-**And** the *Accessed* button will appear which will auto-fill if selected
+| **Scenario 3:** Songs recently accessed
+| **Given** that I have digitally accessed songs from my collection
+| **When** I click the *Recently Accessed* button
+| **Then** I will be taken to a list indicated my most recent selection for the
+ past 3 months
+| **And** this list will include *Album*, *Song*, *Artist*, *Location*, *Genre* 
+| **And** the *Accessed* button will appear which will auto-fill if selected
 
 
