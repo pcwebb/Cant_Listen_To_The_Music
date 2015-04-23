@@ -49,8 +49,9 @@ amount of recorded music, so that I can select specific music quickly and
 increase my enjoyment of my hobby.
 
 
+****************
 Acceptance Story
-================
+****************
 
 | **Scenario 1:** Inputting the albums
 | **Given** that I have an new album
@@ -59,7 +60,7 @@ Acceptance Story
 | **Then** I will be taken to a form screen to input my album information by
  filling in an *Album*, *Song*, *Artist*, *Location*, and *Genre*
 | **And** the *Date Cataloged* will auto-fill.
-
+| 
 
 | **Scenario 2:** Selecting and deleting a song
 | **Given** that I would like to play a song from my collection
@@ -73,7 +74,7 @@ Acceptance Story
  when selected
 | **And** an *Accessed* button will appear beside each song which will auto-fill
  when selected
-
+| 
 
 | **Scenario 3:** Songs recently accessed
 | **Given** that I have digitally accessed songs from my collection
