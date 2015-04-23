@@ -60,18 +60,20 @@ Acceptance Story
  filling in an *Album*, *Song*, *Artist*, *Location*, and *Genre*
 | **And** the *Date Cataloged* will auto-fill.
 
-| Scenario 2: Selecting and deleting a song
-| **Given that I would like to play a song from my collection
-| **And I would like to use specific parameters
-| **When I click the *Select* button
-| **Then I will be taken to a form to input my parameters (*Album*, *Song*,
+
+| **Scenario 2:** Selecting and deleting a song
+| **Given** that I would like to play a song from my collection
+| **And** I would like to use specific parameters
+| **When** I click the *Select* button
+| **Then** I will be taken to a form to input my parameters (*Album*, *Song*,
  *Artist*, *Location*, and/or *Genre*)
-| **And a list with *Album*, *Song*, *Artist*, *Location*, and or *Genre*
+| **And** a list with *Album*, *Song*, *Artist*, *Location*, and or *Genre*
  will generate based on those selected parameters
-| **And a *Delete* button will appear beside each song which will delete entry
+| **And** a *Delete* button will appear beside each song which will delete entry
  when selected
-| **And an *Accessed * button will appear beside each song which will auto-fill
+| **And** an *Accessed* button will appear beside each song which will auto-fill
  when selected
+
 
 | **Scenario 3:** Songs recently accessed
 | **Given** that I have digitally accessed songs from my collection
